@@ -33,14 +33,14 @@ public class Calculo {
 	
 	
 	public double rendimentoBruto(double rendimentoCBD) {
-		double rendimentoBruto = getTaxaDI() * (rendimentoCBD/100);;
-		
+		double rendimentoBruto = getTaxaDI() * (rendimentoCBD/100);
 		return rendimentoBruto;
-		//6,39% (taxa do CDI) x 1,2 (120% / 100) = 7,67%
 		
 	}
 	
-	public double rendimentoLíquido() {
+	
+	
+	public double rendimentoLiquido() {
 		double rendimentoLiquido=0.0;
 		
 		
@@ -49,7 +49,7 @@ public class Calculo {
 	
 	public double calcRendimentoReal() {
 	
-	//	double rendimentoReal = (( ( 1 + rendimentoLíquido()) / (1 + Inflação) ) - 1) x 100;... - 
+	//	double rendimentoReal = (( ( 1 + rendimentoLï¿½quido()) / (1 + Inflaï¿½ï¿½o) ) - 1) x 100;... - 
 		
 				return 0.0;// rendimentoReal;
 	}
